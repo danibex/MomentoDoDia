@@ -1,10 +1,10 @@
-body {
-    background: blue;
-    font: normal 15pt Arial;
-}
 header {
     color: white;
     text-align: center;
+}
+body {
+    background: blue;
+    font: normal 15pt Arial;
 }
 section {
     background: white;
@@ -14,21 +14,24 @@ section {
     margin: auto; /* Centraliza */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
-img {
+div{
+    text-align: center;
+}
+div#msg {
+    margin-bottom: 20px;
+}
+img#img {
     border-radius: 50%;
     height: 250px;
     width: 250px;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
 footer {
     color: white;
     text-align: center;
     font-style: italic;
     margin-top: 20px;
-}
-div{
-    text-align: center;
-}
-
-div#msg {
-    margin-bottom: 20px;
 }
