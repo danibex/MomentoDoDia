@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Momento</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Momento do Dia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body id="corpo" onload="carregar()">
 
-<body id="cor-de-fundo">
+    <header>
+        <h1>Hora do dia</h1>
+    </header>
 
-    <h1>Hora do dia</h1>
-    <div id="container">
-        <div id="box">
-            <p id='hora'>Agora são: </p>
-            <div id='box-imagem'>
-            <p id='imagem-da-hora'><img src="" alt="" id="imagem">
-            <p id='momentoDoDia'>Agora é </p>
-            </div>
+    <section>
+        <div id='msg'>
+            Aqui vai a hora
         </div>
-    </div>
-   
-    <footer> &#169; Daniel</footer>
 
-    <script src="funcoes.js"></script>
+        <div id='foto'>
+            <img id="img" src="fotos/manha.jpg" alt="Foto do dia">
+        </div>
+
+        <div id="momento">
+            Agora é...
+        </div>
+    </section>
+
+    <footer>&copy; Daniel | <a href="https://github.com/danibex" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/daniel-santana-ti-frontend/" target="_blank">Linkedin</a></footer>
+
+<script src="funcoes.js"></script>
 </body>
 </html>
